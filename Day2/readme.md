@@ -12,7 +12,6 @@ class Program {
 
     Console.WriteLine(part1(InputArray,permutations,permScores));
     Console.WriteLine(part2(InputArray,permutations,criteria,permScores));
-
   }
 
     public static int part1(string[] InputArray,string[] permutations,int[] permScores){
@@ -26,8 +25,10 @@ class Program {
         }
     }
     return score;
-    }    
+    }
+    
   public static int part2(string[] InputArray,string[] permutations,string[] criteria,int[] permScores){
+    
     int score=0;
     foreach(string line in InputArray){
         string[] hand = line.Split(" ");
@@ -61,6 +62,5 @@ class Program {
 
     return score;
   }
-
 }
 ```
