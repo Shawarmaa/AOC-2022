@@ -1,4 +1,4 @@
-'''c#
+```c#
 using System;
 class Program {
   public static void Main (string[] args) {
@@ -77,4 +77,4 @@ class Program {
     return score;
   }
 }
-'''
+```
