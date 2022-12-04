@@ -1,4 +1,5 @@
 ```c#
+//used Alex's method. Props to him!!!
 using System;
 class Program {
   public static void Main (string[] args) {
