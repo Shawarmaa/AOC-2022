@@ -1,5 +1,7 @@
 ```c#
 using System;
+using System.IO;
+
 class Program {
   public static void Main (string[] args) {
     string[] InputArray = File.ReadAllLines(@"Input.txt");
