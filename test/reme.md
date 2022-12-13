@@ -1,7 +1,5 @@
 ```python
 # Priority Queue implementation in Python
-
-
 # Function to heapify the tree
 def heapify(arr, n, i):
     # Find the largest among root, left child and right child
@@ -20,7 +18,6 @@ def heapify(arr, n, i):
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
 
-
 # Function to insert an element into the tree
 def insert(array, newNum):
     size = len(array)
@@ -30,8 +27,7 @@ def insert(array, newNum):
         array.append(newNum)
         for i in range((size // 2) - 1, -1, -1):
             heapify(array, size, i)
-
-
+            
 # Function to delete an element from the tree
 def deleteNode(array, num):
     size = len(array)
@@ -46,7 +42,6 @@ def deleteNode(array, num):
 
     for i in range((len(array) // 2) - 1, -1, -1):
         heapify(array, len(array), i)
-
 
 arr = []
 
